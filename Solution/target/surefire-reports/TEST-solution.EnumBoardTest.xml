@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="solution.EnumBoardTest" time="0.04" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="solution.EnumBoardTest" time="0.079" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="12"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk-12.0.2/lib"/>
-    <property name="sun.java.command" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire/surefirebooter2582107459749173660.jar /home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire 2019-08-27T11-07-51_391-jvmRun1 surefire219357302556364094tmp surefire_02665364464278575971tmp"/>
+    <property name="sun.java.command" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire/surefirebooter17667581824619822491.jar /home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire 2019-08-27T12-28-07_723-jvmRun1 surefire6540688682911874749tmp surefire_03574446674979930505tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/test-classes:/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/classes:/home/mtomco/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/mtomco/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/mtomco/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/mtomco/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/mtomco/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/mtomco/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -24,12 +24,12 @@
     <property name="java.home" value="/usr/local/java/jdk-12.0.2"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire/surefirebooter2582107459749173660.jar"/>
+    <property name="surefire.real.class.path" value="/home/mtomco/IdeaProjects/Sudoku Solver/Solution/target/surefire/surefirebooter17667581824619822491.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
     <property name="user.name" value="mtomco"/>
@@ -52,24 +52,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayOnlyZeros" classname="solution.EnumBoardTest" time="0.008"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions10x9" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions9x10" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_SudokuIsLegalButNotSolvableBecauseOfSameNumbersInRowZero" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_BeEqual_When_EqualsOnItself" classname="solution.EnumBoardTest" time="0.002"/>
-  <testcase name="Should_BeFalse_When_EqualsOnDifferentClass" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayOfOnesContainsZero" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_PrintBoard_When_PrintBoardMethodCalled" classname="solution.EnumBoardTest" time="0.004"/>
-  <testcase name="Should_BeEqualAndSameHashCode_When_HasEqualBoards" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_ThrowNullPointerException_When_WriteToBoardCoordinatesIsNull" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_ThrowNullPointerException_When_GetIncrementedCoordinatesIsNull" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_SudokuIsLegalButNotSolvableBecauseOfSameNumbersInColumnThree" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions10x10" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_ThrowNullPointerException_When_WriteToBoardCoordinatesIsOutOfBounds" classname="solution.EnumBoardTest" time="0.006"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayOnlyZeros" classname="solution.EnumBoardTest" time="0.015"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions10x9" classname="solution.EnumBoardTest" time="0.002"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions9x10" classname="solution.EnumBoardTest" time="0.002"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_SudokuIsLegalButNotSolvableBecauseOfSameNumbersInRowZero" classname="solution.EnumBoardTest" time="0.002"/>
+  <testcase name="Should_BeEqual_When_EqualsOnItself" classname="solution.EnumBoardTest" time="0.005"/>
+  <testcase name="Should_BeFalse_When_EqualsOnDifferentClass" classname="solution.EnumBoardTest" time="0.003"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayOfOnesContainsZero" classname="solution.EnumBoardTest" time="0.002"/>
+  <testcase name="Should_PrintBoard_When_PrintBoardMethodCalled" classname="solution.EnumBoardTest" time="0.009"/>
+  <testcase name="Should_BeEqualAndSameHashCode_When_HasEqualBoards" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_ThrowNullPointerException_When_WriteToBoardCoordinatesIsNull" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_ThrowNullPointerException_When_GetIncrementedCoordinatesIsNull" classname="solution.EnumBoardTest" time="0.002"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_SudokuIsLegalButNotSolvableBecauseOfSameNumbersInColumnThree" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions10x10" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_ThrowNullPointerException_When_WriteToBoardCoordinatesIsOutOfBounds" classname="solution.EnumBoardTest" time="0.008"/>
   <testcase name="Should_ThrowIllegalArgumentException_When_SudokuIsLegalButNotSolvableBecauseOfSameNumbersInBottomRightBox" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_WriteToBoardValueIsNull" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_WriteToBoardValueIsNull" classname="solution.EnumBoardTest" time="0.002"/>
   <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions0x0" classname="solution.EnumBoardTest" time="0.001"/>
   <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions0x9" classname="solution.EnumBoardTest" time="0.001"/>
-  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions9x0" classname="solution.EnumBoardTest" time="0"/>
-  <testcase name="Should_NotEqual_When_ComparingBoardsWithDifferentChars" classname="solution.EnumBoardTest" time="0"/>
+  <testcase name="Should_ThrowIllegalArgumentException_When_ArrayDimensions9x0" classname="solution.EnumBoardTest" time="0.001"/>
+  <testcase name="Should_NotEqual_When_ComparingBoardsWithDifferentChars" classname="solution.EnumBoardTest" time="0.001"/>
 </testsuite>
