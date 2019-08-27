@@ -5,8 +5,11 @@ import java.util.List;
 
 class BacktrackingSolution implements Solution {
 
+    private BacktrackingSolution() {
+    }
+
     static SudokuBoard solve(SudokuBoard board) {
-        if(board == null) {
+        if (board == null) {
             throw new NullPointerException("Board cannot be null.");
         }
         System.out.println("Initial board.");

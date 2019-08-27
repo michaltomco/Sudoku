@@ -4,6 +4,9 @@ import java.awt.Point;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+import solution.Solution;
+import solution.BacktrackingSolution;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,8 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EnumBoardTest {
 
-    char[][] unsolvedArray = new char[9][9];
-    SudokuBoard unsolvedBoard;
+    private char[][] unsolvedArray = new char[9][9];
+    private SudokuBoard unsolvedBoard;
 
     @BeforeEach
     void setUp() {

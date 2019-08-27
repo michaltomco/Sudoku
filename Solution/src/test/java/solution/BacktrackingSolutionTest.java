@@ -9,16 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BacktrackingSolutionTest {
 
-
-
     @Test
-    void Should_ThrowIllegalArgumentException_When_ArrayOnlyEmptyChars() {
-        char[][] array = new char[9][9];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                array[i][j] = '.';
-            }
-        }
+    void Should_ThrowIllegalArgumentException_When_SolveOnNull() {
         assertThrows(NullPointerException.class,
                      () -> {
                          BacktrackingSolution.solve(null);
